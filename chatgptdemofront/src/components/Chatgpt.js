@@ -5,12 +5,10 @@ import { useEffect } from 'react';
 const ChatSection = () => {
     const [message, setMessage] = useState('');
     const [response, setResponse] = useState([]);
-    var var1 = 0;
     useEffect(() => {
         axios.get('/api')
             .then(res => {
               setResponse(res.data);
-              console.log(++var1);
             })
             .catch(err => {
               console.error(err);
