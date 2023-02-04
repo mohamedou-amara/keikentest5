@@ -1,0 +1,27 @@
+services:
+  mongodb:
+    container_name: keikentestdb
+    image: mongo
+    ports:
+      - 27017:27017
+  spring-backend:
+    container_name: spring-backend
+    build: .
+    ports:
+      - 9002:9002
+    links:
+      - mongodb
+  react-frontend:
+    container_name: react-frontend
+    build: ./chatgptdemofront
+    ports:
+      - 3000:3000
+    links:
+      - spring-backend
+  nginx:
+    build: ./nginx
+    ports:
+      - 80:80
+    links:
+      - spring-backend
+      - react-frontend

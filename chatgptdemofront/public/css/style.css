@@ -1,0 +1,144 @@
+/*espace chat  */
+#espaceChat .chat{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#espaceChat .card{
+    height: 500px;
+    border-radius: 15px !important;
+    background-color: rgba(0,0,0,0.4) !important;
+}
+
+#espaceChat .msg_card_body{
+    overflow-y: auto;
+}
+#espaceChat .card-header{
+    border-radius: 15px 15px 0 0 !important;
+    border-bottom: 0 !important;
+}
+#espaceChat .card-footer{
+border-radius: 0 0 15px 15px !important;
+    border-top: 0 !important;
+}
+#espaceChat .container{
+    align-content: center;
+}
+
+#espaceChat .type_msg{
+    background-color: rgba(0,0,0,0.3) !important;
+    border:0 !important;
+    color:white !important;
+    height: 60px !important;
+    overflow-y: auto;
+}
+#espaceChat .type_msg:focus{
+     box-shadow:none !important;
+   outline:0px !important;
+}
+#espaceChat .attach_btn{
+border-radius: 15px 0 0 15px !important;
+background-color: rgba(0,0,0,0.3) !important;
+    border:0 !important;
+    color: white !important;
+    cursor: pointer;
+}
+#espaceChat .send_btn{
+border-radius: 0 15px 15px 0 !important;
+background-color: rgba(0,0,0,0.3) !important;
+    border:0 !important;
+    color: white !important;
+    cursor: pointer;
+}
+
+#espaceChat .user_img{
+    height: 70px;
+    width: 70px;
+    border:1.5px solid #f5f6fa;
+
+}
+#espaceChat .user_img_msg{
+    height: 40px;
+    width: 40px;
+    border:1.5px solid #f5f6fa;
+
+}
+
+
+
+#espaceChat .msg_cotainer{
+margin-top: auto;
+margin-bottom: auto;
+margin-left: 10px;
+border-radius: 25px;
+background-color: #7d82b9;
+padding: 10px;
+position: relative;
+}
+#espaceChat .msg_cotainer_send{
+margin-top: auto;
+margin-bottom: auto;
+margin-right: 10px;
+border-radius: 25px;
+background-color: #ec8959;
+padding: 10px;
+position: relative;
+}
+ #espaceChat .msg_time{
+position: absolute;
+left: 0;
+bottom: -15px;
+color: rgba(255,255,255,0.5);
+font-size: 10px;
+}
+#espaceChat .msg_time_send{
+position: absolute;
+right:0;
+bottom: -15px;
+color: rgba(255,255,255,0.5);
+font-size: 10px;
+} 
+#espaceChat .msg_head{
+position: relative;
+}
+#espaceChat #action_menu_btn{
+position: absolute;
+right: 10px;
+top: 10px;
+color: white;
+cursor: pointer;
+font-size: 20px;
+}
+#espaceChat .action_menu{
+z-index: 1;
+position: absolute;
+padding: 15px 0;
+background-color: rgba(0,0,0,0.5);
+color: white;
+border-radius: 15px;
+top: 30px;
+right: 15px;
+display: none;
+}
+#espaceChat .action_menu ul{
+list-style: none;
+padding: 0;
+margin: 0;
+}
+#espaceChat .action_menu ul li{
+width: 100%;
+padding: 10px 15px;
+margin-bottom: 5px;
+}
+#espaceChat .action_menu ul li i{
+padding-right: 10px;
+
+}
+#espaceChat .action_menu ul li:hover{
+cursor: pointer;
+background-color: rgba(0,0,0,0.2);
+}
+@media(max-width: 576px){
+    #espaceChat .contacts_card{
+margin-bottom: 15px !important;
+}
+}

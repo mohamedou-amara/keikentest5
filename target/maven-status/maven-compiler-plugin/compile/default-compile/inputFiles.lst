@@ -1,0 +1,8 @@
+/Users/macamara/Desktop/java-2022-12/ProjetKeikenfinal/KeikenTest5/src/main/java/keiken/test/openai/chatgpt/ChatGptController.java
+/Users/macamara/Desktop/java-2022-12/ProjetKeikenfinal/KeikenTest5/src/main/java/keiken/test/openai/service/ChatService.java
+/Users/macamara/Desktop/java-2022-12/ProjetKeikenfinal/KeikenTest5/src/main/java/keiken/test/openai/OpenAiApiClient.java
+/Users/macamara/Desktop/java-2022-12/ProjetKeikenfinal/KeikenTest5/src/main/java/keiken/test/openai/ChatgptApplication.java
+/Users/macamara/Desktop/java-2022-12/ProjetKeikenfinal/KeikenTest5/src/main/java/keiken/test/openai/chatgpt/CompletionResponse.java
+/Users/macamara/Desktop/java-2022-12/ProjetKeikenfinal/KeikenTest5/src/main/java/keiken/test/openai/repository/ChatHistoryRepository.java
+/Users/macamara/Desktop/java-2022-12/ProjetKeikenfinal/KeikenTest5/src/main/java/keiken/test/openai/model/ChatHistory.java
+/Users/macamara/Desktop/java-2022-12/ProjetKeikenfinal/KeikenTest5/src/main/java/keiken/test/openai/chatgpt/CompletionRequest.java
